@@ -1,0 +1,229 @@
+body {
+    /* background-color: #DAFFFB; */
+}
+
+.div-main-title {
+    text-align: center;
+    position: relative;
+}
+
+video {
+    width: 100%;
+}
+
+.div-bg-title {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 99.2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25%;
+}
+
+.title-text{
+    margin: 0;
+    color: white;
+    font-size: 5vw;
+}
+
+.line-title {
+    color: white;
+}
+
+.p-title-text {
+    color: white;
+}
+
+.button-in-title {
+    background-color: #176B87;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    padding: 0.4vw;
+    width: 20%;
+    margin-left: 40%;
+}
+
+.button-in-title:hover {
+    transition-duration: 0.2s;
+    background-color: #04364A;
+}
+
+header {
+    position: fixed;
+    z-index: 5;
+    background-color: #04364A;
+    width: 100%;
+    height: 8vh;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 1.3rem;
+}
+
+ul {
+    margin-top: 0.3vw;
+    margin-right: 5vw;
+    gap: 1.5vw;
+}
+
+.login-nav {
+    border: 2.5px solid #176B87;
+    border-radius: 10px;
+}
+
+.login-nav:hover {
+    background-color: #176B87;
+}
+
+.div-main-penjelasan {
+    display: flex;
+    gap: 3vw;
+    padding: 0 8vw 0 8vw;
+    justify-content: space-around;
+    margin-top: -50px;
+    position: relative;
+}
+
+.div-tradisi,
+.div-makanan,
+.div-destinasi,
+.div-kesenian {
+    background-color: #04364A;
+    color: white;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1.5vw;
+    box-shadow: 0px 28px 45px 0px rgba(0, 0, 0, 0.50);
+}
+
+.tradisi-img,
+.makanan-img,
+.destinasi-img,
+.kesenian-img {
+    border-radius: 100%;
+}
+
+.title-penjelasan {
+    margin: 15px;
+}
+
+.button-penjelasan {
+    color: white;
+    text-decoration: none;
+    background-color: #176B87;
+    padding: 0.5vw;
+    border-radius: 5px;
+}
+
+.button-penjelasan:hover {
+    transition-duration: 0.2s;
+    background-color: #04364A;
+    border: 3px solid #176B87;
+}
+
+.div-map {
+    /* margin-top: 35px; */
+    padding-top: 8vw;
+    /* border: 1px solid blue; */
+    text-align: center;
+}
+
+svg {
+    width: 100%;
+    margin: auto;
+}
+
+/* buleleng  */
+.buleleng-location:hover {
+    fill: #04364A;
+    /* transition-duration: 0.5s; */
+}
+
+.buleleng-location:not(:hover) {
+    fill: #C3C3C3;
+    /* transition-duration: 0.5s; */
+}
+
+/* jembrana  */
+.jembrana-location:hover {
+    fill: #04364A;
+    /* transition-duration: 0.5s; */
+}
+
+.jembrana-location:not(:hover) {
+    fill: #C3C3C3;
+    /* transition-duration: 0.5s; */
+}
+
+/* bangli  */
+.bangli-location:hover {
+    fill: #04364A;
+    /* transition-duration: 0.5s; */
+}
+
+.bangli-location:not(:hover) {
+    fill: #C3C3C3;
+    /* transition-duration: 0.5s; */
+}
+
+/* tabanan  */
+.tabanan-location:hover {
+    fill: #04364A;
+    /* transition-duration: 0.5s; */
+}
+
+.tabanan-location:not(:hover) {
+    fill: #C3C3C3;
+    /* transition-duration: 0.5s; */
+}
+
+/* badung  */
+.badung-location:hover {
+    fill: #04364A;
+    /* transition-duration: 0.5s; */
+}
+
+.badung-location:not(:hover) {
+    fill: #C3C3C3;
+    /* transition-duration: 0.5s; */
+}
+
+/* gianyar  */
+.gianyar-location:hover {
+    fill: #04364A;
+    /* transition-duration: 0.5s; */
+}
+
+.gianyar-location:not(:hover) {
+    fill: #C3C3C3;
+    /* transition-duration: 0.5s; */
+}
+
+/* denpasar */
+.denpasar-location:hover {
+    fill: #04364A;
+    /* transition-duration: 0.5s; */
+}
+
+.denpasar-location:not(:hover) {
+    fill: #C3C3C3;
+    /* transition-duration: 0.5s; */
+}
+
+/* karangasem */
+.karangasem-location:hover {
+    fill: #04364A;
+    /* transition-duration: 0.5s; */
+}
+
+.karangasem-location:not(:hover) {
+    fill: #C3C3C3;
+    /* transition-duration: 0.5s; */
+}
