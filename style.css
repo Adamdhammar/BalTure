@@ -22,7 +22,7 @@ video {
     flex-direction: column;
     justify-content: center;
     /* padding: 25%; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .title-text{
