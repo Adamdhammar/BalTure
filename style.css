@@ -12,6 +12,7 @@ body {
 
 video {
     width: 100%;
+    margin-top: -25px;
 }
 
 .div-bg-title {
@@ -38,6 +39,18 @@ video {
     color: white;
     width: 50%;
     margin-left: 25%;
+    animation-name: line-title-animation;
+    animation-duration: 1s;
+}
+
+@keyframes line-title-animation {
+    0%{
+        width: 0%;
+    }
+
+    100% {
+        width: 50%;
+    }
 }
 
 .p-title-text {
@@ -319,8 +332,12 @@ svg {
     width: 70%;
     font-weight: bold;
     margin-left: 15%;
-    margin-top: 3vw;
+    margin-top: 5vh;
 }
+
+/* .div-about-bali {
+    margin-top: 100vh;
+} */
 
 .p-penjelasan-bali {
     width: 70%;
@@ -390,7 +407,7 @@ svg {
 
 .gallery-image {
     animation-name: gallery-slider;
-    animation-duration: 9s;
+    animation-duration: 150s;
     animation-iteration-count: infinite;
     /* transition-timing-function: ease-in; */
 
@@ -410,6 +427,6 @@ svg {
     }
 
     100% {
-        transform: translateX(-1520px);
+        transform: translateX(-10645px);
     }
 }
